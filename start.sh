@@ -1,4 +1,4 @@
 #!/bin/sh
-sleep 5s
+sleep 1s
 
 ./bin/tempctl

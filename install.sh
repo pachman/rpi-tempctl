@@ -5,6 +5,9 @@
 REPO=`pwd`
 
 cd $REPO/src
+
+mkdir $REPO/bin
+
 gcc -o $REPO/bin/tempctl temp_control.c ssd1306_i2c.c -pthread -lwiringPi -lm -lrt -lcrypt
 
 # cd ~/.config/
